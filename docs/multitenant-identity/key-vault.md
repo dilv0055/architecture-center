@@ -137,7 +137,7 @@ Now assign this user as the subscription owner.
    
     When prompted for credentials, sign in as the Azure AD user that you created earlier. The script creates a new resource group, and a new key vault within that resource group. 
    
-2. Run SetupKeyVault.ps again as follows:
+2. Run Setup-KeyVault.ps1 again as follows:
    
     ```
     .\Setup-KeyVault.ps1 -KeyVaultName <<key vault name>> -ApplicationIds @("<<Surveys app id>>", "<<Surveys.WebAPI app ID>>")
